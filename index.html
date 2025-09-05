@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>🎓 College Finder</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Leaflet CSS & JS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+  <!-- App JS -->
+  <script src="script.js"></script>
+</head>
+<body>
+  <!-- 🔹 Header -->
+  <header>
+    <h1>🎓 College Finder</h1>
+    <input id="searchBox" type="text" placeholder="Enter a city or location..." />
+    <button onclick="searchLocation()">🔍 Search</button>
+    <button onclick="findMyLocation()">📍 My Location</button>
+  </header>
+
+  <!-- 🔹 Main Layout -->
+  <main>
+    <div id="map"></div>
+    <div id="sidebar">
+      <h2>Nearby Colleges</h2>
+      <ul id="placesList"></ul>
+    </div>
+  </main>
+</body>
+</html>
