@@ -13,7 +13,20 @@ body {
   overflow: hidden;
 }
 
-/* 🔹 Header */
+#map {
+  height: 80vh;
+  width: 70%;
+  float: left;
+}
+
+#sidebar {
+  width: 28%;
+  float: right;
+  padding: 10px;
+  height: 80vh;
+  overflow-y: auto;
+  border-left: 2px solid #ddd;
+}
 /* 🔹 Header */
 header {
   background: #1e1e1e;
